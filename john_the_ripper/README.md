@@ -255,11 +255,18 @@ to use the rar2john tool to convert the rar file into a hash format
 1. What is the password for the secure.rar file?
 
 ```
+rar2john rar > forJohn
+john forJohn --wordlist=/opt/rockyou.txt
+```
+
+```
+password
 ```
 
 2. <p>What is the contents of the flag inside the zip file?</p>
 
 ```
+THM{r4r_4rch1ve5_th15_t1m3}
 ```
 
 ----------------------------------------
@@ -276,7 +283,14 @@ to use the rar2john tool to convert the rar file into a hash format
 
 1. What is the SSH private key password?<br />
 
+```bash
+# ssh2john is broken for python3
+sed 's/decodestring/decodebytes/' /usr/bin/ssh2john | python3 - id_rsa > forJohn
+john forJohn --wordlist /opt/rockyou.txt
 ```
+
+```
+mango
 ```
 
 ----------------------------------------
@@ -294,5 +308,6 @@ to use the rar2john tool to convert the rar file into a hash format
 1. Read the above.
 
 ```
+OK
 ```
 
