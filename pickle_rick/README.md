@@ -16,18 +16,53 @@
 
 ----------------------------------------
 
-1. <p>Deploy the virtual machine on this task and explore the web application.</p><p>What is the first <span style="color:rgb(0, 0, 0);font-size:1rem;">ingredient Rick needs?</span></p>
+1. <p>Deploy the virtual machine on this task and explore the web application.</p><p>What is the first <span style="font-size:1rem;">ingredient Rick needs?</span></p>
+
+```bash
+export IP=10.10.241.78
+
+nmap -sC -sV -vvv -oN nmap/initial $IP
+```
+
+```html
+  <!--
+
+    Note to self, remember username!
+
+    Username: R1ckRul3s
+
+  -->
+```
+
+```bash
+# robots.txt
+
+Wubbalubbadubdub
+```
+```
+http://10.10.241.78/login.php
+```
+
+`strings Sup3rS3cretPickl3Ingred.txt`
 
 ```
+mr. meeseek hair
 ```
 
 2. <p>Whats the second ingredient Rick needs?<br /></p>
 
+`strings /home/rick/second\ ingredients`
+
 ```
+1 jerry tear
 ```
 
 3. <p>Whats the final ingredient Rick needs?<br /></p>
 
+`sudo -l`
+`sudo strings /root/3rd.txt`
+
 ```
+fleeb juice
 ```
 
