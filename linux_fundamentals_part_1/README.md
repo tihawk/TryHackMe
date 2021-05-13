@@ -2,7 +2,7 @@
 
 ## Linux Fundamentals Part 1
 
-> _kblagoev | May 13, 2021_
+> _tihawk | May 13, 2021_
 
 ----------------------------------------
 

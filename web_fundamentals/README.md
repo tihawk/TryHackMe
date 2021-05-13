@@ -2,7 +2,7 @@
 
 ## Web Fundamentals
 
-> _kblagoev | May 13, 2021_
+> _tihawk | May 13, 2021_
 
 ----------------------------------------
 
