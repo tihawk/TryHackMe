@@ -37,14 +37,14 @@
 - [ ] The Cod Caper https://tryhackme.com/room/thecodcaper
 - [ ] Ice https://tryhackme.com/room/ice
 - [ ] Lazy Admin https://tryhackme.com/room/lazyadmin
-- [ ] Basic Pentesting https://tryhackme.com/room/basicpentestingjt
+- [X] Basic Pentesting https://tryhackme.com/room/basicpentestingjt
 
 # Level 4 - Web
 - [X] OWASP top 10 https://tryhackme.com/room/owasptop10
 - [ ] Inclusion https://tryhackme.com/room/inclusion
 - [ ] Injection https://tryhackme.com/room/injection
 - [X] Vulnversity https://tryhackme.com/room/vulnversity
-- [ ] Basic Pentesting https://tryhackme.com/room/basicpentestingjt
+- [X] Basic Pentesting https://tryhackme.com/room/basicpentestingjt
 - [X] Juiceshop https://tryhackme.com/room/owaspjuiceshop
 - [ ] Ignite https://tryhackme.com/room/ignite
 - [ ] Overpass https://tryhackme.com/room/overpass
